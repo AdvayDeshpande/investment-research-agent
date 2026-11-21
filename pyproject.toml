@@ -1,0 +1,9 @@
+[project]
+name = "investment-research-agent"
+version = "0.1.0"
+description = "ReAct agent for investment research: Groq LLM + yfinance + NewsAPI + local ChromaDB RAG"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

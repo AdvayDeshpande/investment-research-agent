@@ -1,0 +1,14 @@
+.env
+.venv/
+venv/
+inv_ai/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+data/chroma_db/
+data/documents/*
+!data/documents/.gitkeep
+.vscode/
+.idea/
+!data/documents/berkshire_2023_shareholder_letter.pdf
